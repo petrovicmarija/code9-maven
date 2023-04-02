@@ -15,6 +15,16 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <parent.version>1.0-SNAPSHOT</parent.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.levi9.code9</groupId>
+            <artifactId>parent-module</artifactId>
+            <version>${parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
